@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.box{
+    position: absolute;
+    width: 843px;
+    top: 43px;
+    left: 279px;
+    z-index: 2;
+}
+.girl{
+    position: absolute;
+    width: 258px;
+    top: 403px;
+    left: 417px;
+    z-index: 3;
+}
+.girl:hover{
+    position: absolute;
+    width: 270px;
+    top: 400px;
+    left: 415px;
+    z-index: 3;
+}
+.girl:active{
+    opacity: 0.8;
+}
+
+.boy{
+    position: absolute;
+    width: 258px;
+    top: 403px;
+    left: 764px;
+    z-index: 3;
+}
+.boy:hover{
+    position: absolute;
+    width: 270px;
+    top: 400px;
+    left: 762px;
+    z-index: 3;
+}
+.boy:active{
+    opacity: 0.8;
+}
+.button{
+    position: absolute;
+    width: 482px;
+    top: 740px;
+    left: 460px;
+    z-index: 3;
+}
+.button:hover{
+    position: absolute;
+    width: 500px;
+    top: 735px;
+    left: 455px;
+    z-index: 3;
+}
+.leave{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left:0px;
+    z-index:1000;
+}
+.leave:hover{
+    position: absolute;
+    width: 190px;
+    top: 855px;
+    left:0px;
+    z-index:1000;
+}

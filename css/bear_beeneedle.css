@@ -1,0 +1,329 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.bar{
+    position: absolute;
+    width: 1400px;
+    z-index: 1000;
+}
+.test{
+    position: absolute;
+    width: 214px;
+    top: 30px;
+    left:85px;
+    z-index: 1000;
+}
+.time{
+    position: absolute;
+    width: 431px;
+    top:30px;
+    left: 425.5px;
+    z-index: 1000;
+}
+.score{
+    position: absolute;
+    width: 333px;
+    top: 30px;
+    left: 983px;
+    z-index: 1000;
+}
+.home{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 0px;
+    z-index: 1000;
+}
+.home:hover{
+    position: absolute;
+    width: 190px;
+    top: 855px;
+    left:0px;
+    z-index:1000;
+}
+.question{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 1230px;
+    z-index: 1000;
+}
+.question:hover{
+    position: absolute;
+    width:190px;
+    top: 855px;
+    left:1210px;
+    z-index: 1000;
+}
+.bear{
+    position: absolute;
+    width: 834px;
+    top:120.5px ;
+    left: 55px;
+    z-index: 5;
+}
+.conversation{
+    position: absolute;
+    width: 500px;
+    top: 227px;
+    left: 851px;
+    z-index: 4;
+}
+.honeycomb{
+    position: absolute;
+    width: 354px;
+    top: 80px ;
+    left: 1034px;
+    z-index: 3;
+}
+.square1{
+    position: absolute;
+    width: 202px;
+    top: 477px;
+    left: 905px;
+    z-index: 4;
+}
+
+.square2{
+    position: absolute;
+    width: 202px;
+    top: 477px;
+    left: 1095px;
+    opacity: 0.8;
+    z-index: 4;
+}
+.square3{
+    position: absolute;
+    width: 202px;
+    top: 667px;
+    left: 905px;
+    z-index: 4;
+}
+.square4{
+    position: absolute;
+    width: 202px;
+    top: 667px;
+    left: 1095px;
+    z-index: 4;
+}
+.clampcircle{
+    position: absolute;
+    width: 129px;
+    top: 509px;
+    left: 939px;
+    z-index: 6;
+}
+.clampcircle:hover{
+    position: absolute;
+    width: 135px;
+    top: 509px;
+    left: 939px;
+    z-index: 6;
+}
+.clampsquare{
+    position: absolute;
+    width: 129px;
+    top: 509px;
+    left: 1134px;
+    z-index: 6;
+}
+.clampsquare:hover{
+    position: absolute;
+    width: 135px;
+    top: 509px;
+    left: 1134px;
+    z-index: 6;
+}
+.clamptriangle{
+    position: absolute;
+    width: 129px;
+    top: 698px;
+    left: 939px;
+    z-index: 6;
+}
+.clamptriangle:hover{
+    position: absolute;
+    width: 135px;
+    top: 698px;
+    left: 939px;
+    z-index: 6;
+}
+.clamphexagon {
+    position: absolute;
+    width: 129px;
+    top: 698px;
+    left: 1134px;
+    z-index: 6;
+}
+.clamphexagon:hover {
+    position: absolute;
+    width: 135px;
+    top: 698px;
+    left: 1134px;
+    z-index: 6;
+}
+.beeleft{
+    position: absolute;
+    width: 103px;
+    top: 371px;
+    left: 811px;
+    z-index: 4;
+}
+.beeright{
+    position: absolute;
+    width: 105px;
+    top: 673px;
+    left: 69px;
+    z-index: 4;
+}
+.squareneedle1{
+    position: absolute;
+    width: 54px;
+    top: 330px;
+    left: 160px;
+    z-index: 5;
+
+    animation-name:squareneedle1;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes squareneedle1{
+   from{top: 330px;}
+   to{top: 328px;}
+}
+.squareneedle2{
+    position: absolute;
+    width: 44px;
+    top: 895px;
+    left: 303px;
+    z-index: 5;
+
+    animation-name:squareneedle2;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes squareneedle2{
+   from{top: 895px;}
+   to{top: 892px;}
+}
+.squareneedle3{
+    position: absolute;
+    width: 38px;
+    top: 723px;
+    left: 494px;
+    z-index: 5;
+
+    animation-name:squareneedle3;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes squareneedle3{
+   from{top: 723px;}
+   to{top: 720px;}
+}
+.triangleneedle1{
+    position: absolute;
+    width: 55px;
+    top: 225px;
+    left: 620px;
+    z-index: 5;
+
+    animation-name:triangleneedle1;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes triangleneedle1{
+   from{top: 225px;}
+   to{top: 220px;}
+}
+.triangleneedle2{
+    position: absolute;
+    width: 41px;
+    top: 865px;
+    left: 480px;
+    z-index: 5;
+
+    animation-name:triangleneedle2;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes triangleneedle2{
+   from{top: 865px;}
+   to{top: 861px;}
+}
+.triangleneedle3{
+    position: absolute;
+    top: 810px;
+    left: 740px;
+    width: 43px;
+    z-index: 5;
+
+    animation-name:triangleneedle3;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes triangleneedle3{
+   from{top: 810px;}
+   to{top: 805px;}
+}
+.circleneedle1{
+    position: absolute;
+    width: 57px;
+    top:782px;
+    left: 180px;
+    z-index: 5;
+
+    animation-name:circleneedle1;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes circleneedle1{
+   from{top: 782px;}
+   to{top: 780px;}
+}
+.circleneedle2{
+    position: absolute;
+    width: 26px;
+    top: 777px;
+    left: 343px; 
+    z-index: 5;
+
+    animation-name:circleneedle2;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes circleneedle2{
+   from{top: 777px;}
+   to{top: 775px;}
+}
+.circleneedle3{
+    position: absolute;
+    width: 76px; 
+    top: 700px;
+    left: 622px;
+    z-index: 5;
+    animation-name:circleneedle3;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes circleneedle3{
+   from{top: 700px;}
+   to{top: 695px;}
+}
+

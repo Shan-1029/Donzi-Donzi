@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.bar{
+    position: absolute;
+    width: 1400px;
+    z-index: 1000;
+}
+.test{
+    position: absolute;
+    width: 214px;
+    top: 30px;
+    left:85px;
+    z-index: 1000;
+}
+.time{
+    position: absolute;
+    width: 431px;
+    top:30px;
+    left: 425.5px;
+    z-index: 1000;
+}
+.score{
+    position: absolute;
+    width: 333px;
+    top: 30px;
+    left: 983px;
+    z-index: 1000;
+}
+.home{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 0px;
+    z-index: 1000;
+}
+.home:hover{
+    position: absolute;
+    width: 190px;
+    top: 855px;
+    left:0px;
+    z-index:1000;
+}
+.question{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 1230px;
+    z-index: 1000;
+}
+.question:hover{
+    position: absolute;
+    width:190px;
+    top: 855px;
+    left:1210px;
+    z-index: 1000;
+}
+.rabbit{
+    position: absolute;
+    width: 302px;
+    top: 492px;
+    left: 869px;
+    z-index: 3;
+    animation-name:rabbit;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes rabbit{
+   from{top: 492px;}
+   to{top: 500px;}
+}
+.conversation{
+    position: absolute;
+    width: 637px;
+    top: 170px;
+    left: 745px;
+    z-index: 4;
+}
+.tangerine{
+    position: absolute;
+    width: 306px;
+    top: 438px;
+    left: 17px; 
+    z-index: 3;
+} 
+.tangerine:hover{
+    position: absolute;
+    width: 326px;
+    top: 418px;
+    left: 15px; 
+    z-index: 3;
+} 
+.green{
+    position: absolute;
+    width: 222px;
+    top: 211px;
+    left: 256px;
+    z-index: 2;
+}
+.green:hover{
+    position: absolute;
+    width: 242px;
+    top: 191px;
+    left: 256px;
+    z-index: 2;
+}
+.blue{
+    position: absolute;
+    width: 157px;
+    top: 228px;
+    left: 504px; 
+    z-index: 2 ; 
+}
+.blue:hover{
+    position: absolute;
+    width: 177px;
+    top: 200px;
+    left: 504px; 
+    z-index: 2 ; 
+}
+.red{
+    position: absolute;
+    width: 221px;
+    top: 179px;
+    left: 728px; 
+    z-index: 2;
+}
+.red:hover{
+    position: absolute;
+    width: 241px;
+    top: 150px;
+    left: 720px; 
+    z-index: 2;
+}
+.yellow{
+    position: absolute;
+    width: 233px;
+    top: 283px;
+    left: 956px;
+    z-index: 2;
+}
+.yellow:hover{
+    position: absolute;
+    width: 253px;
+    top: 263px;
+    left: 950px;
+    z-index: 2;
+}
+.purple{
+    position: absolute;
+    width: 157px;
+    top: 311px;
+    left: 1175px;
+    z-index: 2; 
+}
+.purple:hover{
+    position: absolute;
+    width: 177px;
+    top: 271px;
+    left: 1175px;
+    z-index: 2; 
+}

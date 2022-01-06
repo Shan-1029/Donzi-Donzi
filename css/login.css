@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.box{
+    position: absolute;
+    width: 1305px;
+    top: 57px;
+    left: 49px;
+    z-index: 2;
+}
+.choose{
+    position: absolute;
+    width: 464px;
+    top: 253px;
+    left: 202px;
+    z-index: 3;
+}
+.choose:hover{
+    position: absolute;
+    width: 480px;
+    top: 253px;
+    left: 190px;
+    z-index: 3;
+}
+.create{
+    position: absolute;
+    width: 464px;
+    top: 253px;
+    left: 735px;
+    z-index: 3;
+}
+.create:hover{
+    position: absolute;
+    width: 480px;
+    top: 253px;
+    left: 723px;
+    z-index: 3;
+}

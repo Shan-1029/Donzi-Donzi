@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.logo{
+    position: absolute;
+    width: 1227px;
+    top: 195px;
+    left: 83px;
+    z-index: 2;
+}
+.button{
+    position: absolute;
+    width: 665px;
+    top: 767px;
+    left: 687px;
+    z-index: 2;
+}
+.button:hover{
+    position: absolute;
+    width: 685px;
+    top: 767px;
+    left: 680px;
+    z-index: 2;
+}

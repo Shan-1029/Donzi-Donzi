@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.box{
+    position: absolute;
+    width: 1308px;
+    top: 39px;
+    left: 46px;
+    z-index: 2;
+}
+.person1{
+    position: absolute;
+    width: 342px;
+    top: 219px;
+    left: 179px;
+    z-index: 3;
+}
+.person1:hover{
+    position: absolute;
+    width: 365px;
+    top: 195px;
+    left: 170px;
+    z-index: 3;
+}
+.person2{
+    position: absolute;
+    width: 342px;
+    top: 219px;
+    left: 536px;
+    z-index: 3;
+}
+.person2:hover{
+    position: absolute;
+    width: 365px;
+    top: 195px;
+    left: 527px;
+    z-index: 3;
+}
+.person3{
+    position: absolute;
+    width: 342px;
+    top: 219px;
+    left: 885px;
+    z-index: 3;
+}
+.person3:hover{
+    position: absolute;
+    width: 365px;
+    top: 195px;
+    left: 876px;
+    z-index: 3;
+}
+.leave{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left:0px;
+    z-index:1000;
+}
+.leave:hover{
+    position: absolute;
+    width: 190px;
+    top: 855px;
+    left:0px;
+    z-index:1000;
+}
+.add{
+    position: absolute;
+    width:170px;
+    top: 875.5px;
+    left:1230px;
+    z-index: 1000;
+}
+.add:hover{
+    position: absolute;
+    width:190px;
+    top: 855px;
+    left:1210px;
+    z-index: 1000;
+}

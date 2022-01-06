@@ -1,0 +1,188 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.bar{
+    position: absolute;
+    width: 1400px;
+    z-index: 1000;
+}
+.test{
+    position: absolute;
+    width: 214px;
+    top: 30px;
+    left:85px;
+    z-index: 1000;
+}
+.time{
+    position: absolute;
+    width: 431px;
+    top:30px;
+    left: 425.5px;
+    z-index: 1000;
+}
+.score{
+    position: absolute;
+    width: 333px;
+    top: 30px;
+    left: 983px;
+    z-index: 1000;
+}
+.home{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 0px;
+    z-index: 1000;
+}
+.home:hover{
+    position: absolute;
+    width: 190px;
+    top: 855px;
+    left:0px;
+    z-index:1000;
+}
+.question{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 1230px;
+    z-index: 1000;
+}
+.question:hover{
+    position: absolute;
+    width:190px;
+    top: 855px;
+    left:1210px;
+    z-index: 1000;
+}
+.bear{
+    position: absolute;
+    width: 258px;
+    top: 670px;
+    left: 904px;
+    z-index: 5; 
+}
+.conversation{
+    position: absolute;
+    width: 513px;
+    top: 213px;
+    left: 821px;
+    z-index: 5;
+}
+.rope{
+    position: absolute;
+    width: 125px;
+    top: 60px;
+    left: 734px;
+    z-index: 4;
+
+    animation-name: rope;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes rope{
+   0%{transform: rotate(0deg);}
+   25%{transform: rotate(5deg);}
+   50%{transform: rotate(0deg);}
+   75%{transform: rotate(-5deg);}
+   100%{transform: rotate(0deg);}
+}
+.square1{
+    position: absolute;
+    width: 75px;
+    top: 709px;
+    left: 28px;
+    z-index: 2;
+}
+.square2{
+    position: absolute;
+    width: 106px; 
+    top: 320px;
+    left: 76px;
+    z-index: 2;
+}
+.square3{
+    position: absolute;
+    width: 62px;
+    top: 552px;
+    left: 838px;
+    z-index: 2;
+}
+.hexagon1{
+    position: absolute;
+    width: 64px;
+    top: 568px;
+    left: 178px; 
+    z-index: 2;
+}
+.hexagon2{
+    position: absolute;
+    width: 83px;
+    top: 438px;
+    left: 617px;
+    z-index: 2;
+}
+.hexagon3{
+    position: absolute;
+    width: 67px;
+    top: 687px;
+    left: 704px;
+    z-index: 2;
+}
+.hexagon4{
+    position: absolute;
+    width: 83px;
+    top: 658px;
+    left: 1070px;
+    z-index: 2;
+}
+.circle1{
+    position: absolute;
+    width: 93px;
+    top: 678px;
+    left: 260px;
+    z-index: 2;
+}
+.circle2{
+    position: absolute;
+    width: 60px;
+    top: 598px;
+    left: 532px;
+    z-index: 2;
+}
+.circle3{
+    position: absolute;
+    width: 70px;
+    top: 447px;
+    left: 1035px;
+    z-index: 2;
+}
+.triangle1{
+    position: absolute;
+    width: 88px;
+    top: 463px;
+    left: 345px;
+    z-index: 2;
+}
+.triangle2{
+    position: absolute;
+    width: 62px;
+    top: 817px;
+    left: 502px;
+    z-index: 2;
+}
+.triangle3{
+    position: absolute;
+    width: 63px; 
+    top: 575px;
+    left: 1260px;
+    z-index: 2;
+}

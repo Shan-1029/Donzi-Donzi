@@ -1,0 +1,276 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.bar{
+    position: absolute;
+    width: 1400px;
+    z-index: 1000;
+}
+.test{
+    position: absolute;
+    width: 214px;
+    top: 30px;
+    left:85px;
+    z-index: 1000;
+}
+.time{
+    position: absolute;
+    width: 431px;
+    top:30px;
+    left: 425.5px;
+    z-index: 1000;
+}
+.score{
+    position: absolute;
+    width: 333px;
+    top: 30px;
+    left: 983px;
+    z-index: 1000;
+}
+.home{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 0px;
+    z-index: 1000;
+}
+.home:hover{
+    position: absolute;
+    width: 190px;
+    top: 855px;
+    left:0px;
+    z-index:1000;
+}
+.question{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 1230px;
+    z-index: 1000;
+} 
+.question:hover{
+    position: absolute;
+    width:190px;
+    top: 855px;
+    left:1210px;
+    z-index: 1000;
+}
+.cat{
+    position:absolute;
+    width: 307px;
+    top: 76px;
+    left: 166px;
+    z-index: 3;
+    animation-name:cat;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes cat{
+   0%{transform: rotate(1deg);}
+   50%{transform: rotate(0deg);}
+   100%{transform: rotate(1deg)}
+}
+.conversation{
+    position: absolute;
+    width: 496px;
+    top: 225px;
+    left: 472px;
+    z-index: 4;
+}
+.show{
+    position: absolute;
+    width: 589px;
+    top: 378px;
+    left: 811px;
+    z-index: 2;
+}
+.squarecookies{
+    position: absolute;
+    width: 78px;
+    top: 398px;
+    left: 929px;
+    z-index: 3;
+}
+.trainglecookies{
+    position: absolute;
+    width: 79px;
+    top: 402px;
+    left: 1045px; 
+    z-index: 3;
+}
+.hexagoncooies{
+    position: absolute;
+    width: 86px;
+    top: 398px;
+    left: 1159px;
+    z-index: 3;
+}
+.squarecookies2{
+    position: absolute;
+    width: 79px; 
+    top: 398px;
+    left: 1279px;
+    z-index: 3;
+}
+.box1{
+    position: absolute;
+    width: 202px;
+    top: 520px;
+    left: 909px;
+    z-index: 2;
+}
+.box2{
+    position: absolute;
+    width: 202px;
+    top: 520px;
+    left: 1095px;
+    z-index: 2;
+}
+.box3{
+    position: absolute;
+    width: 202px;
+    top: 710px;
+    left: 909px;
+    z-index: 2;
+}
+.box4{
+    position: absolute;
+    width: 202px;
+    top: 710px;
+    left: 1095px;
+    z-index: 2;
+}
+.circle{
+    position: absolute;
+    width: 121px;
+    top: 565px;
+    left: 945px;
+    z-index: 5;
+}
+.circle:hover{
+    position: absolute;
+    width: 130px;
+    top: 565px;
+    left: 945px;
+    z-index: 5;
+}
+.traingle{
+    position: absolute;
+    width: 107px;
+    top: 560px;
+    left: 1135px;
+    z-index: 5;
+}
+.traingle:hover{
+    position: absolute;
+    width: 115px;
+    top: 558px;
+    left: 1132px;
+    z-index: 5;
+}
+.square{
+    position: absolute;
+    width: 125px;
+    top: 778px;
+    left: 943px;
+    z-index: 5;
+}
+.square:hover{
+    position: absolute;
+    width: 143px;
+    top: 762px;
+    left: 939px;
+    z-index: 5;
+}
+.hexagon{
+    position: absolute;
+    width: 112px;
+    top: 764px;
+    left: 1140px;
+    z-index: 5;
+}
+.hexagon:hover{
+    position: absolute;
+    width: 125px;
+    top: 760px;
+    left: 1135px;
+    z-index: 5;
+}
+.orange{
+    position: absolute;
+    width: 155px;
+    top: 503px;
+    left: 131px;
+    z-index: 3;
+}
+.orange:hover{
+    position: absolute;
+    width: 165px;
+    top: 498px;
+    left: 125px;
+    z-index: 3;
+}
+.blue{
+    position: absolute;
+    width: 150px;
+    top: 508px;
+    left: 316px;
+    z-index: 3;
+}
+.blue:hover{
+    position: absolute;
+    width: 160px;
+    top: 505px;
+    left: 310px;
+    z-index: 3;
+}
+.yellow{
+    position: absolute;
+    width: 152px;
+    top: 507px;
+    left: 498px;
+    z-index: 3;
+}
+.yellow:hover{
+    position: absolute;
+    width: 162px;
+    top: 505px;
+    left: 495px;
+    z-index: 3;
+}
+.green{
+    position: absolute;
+    width: 155px;
+    top: 501px;
+    left: 684px;
+    z-index: 3;
+}
+.green:hover{
+    position: absolute;
+    width: 162px;
+    top: 495px;
+    left: 685px;
+    z-index: 3;
+}
+.white{
+    position: absolute;
+    width: 440px;
+    top: 650px;
+    left: 244px;
+    z-index: 2 ;
+}
+.stick{
+    position: absolute;
+    width: 324px;
+    top: 850px;
+    left: 310px;
+    z-index: 3;
+}

@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: relative;
+    width: 1400px;
+    height:1050px;
+    z-index: 1;
+}
+
+.bar{
+    position: absolute;
+    width:1400px;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+.character{
+    position: absolute;
+    width:158px;
+    top:8px;
+    left: 20px;
+    z-index: 1000;
+}
+.power{
+    position: absolute;
+    width:267px;
+    top:40px;
+    left: 260px;
+    z-index: 1000;
+}
+.money{
+    position: absolute;
+    width:155px;
+    top:41.5px;
+    left: 600px;
+    z-index: 1000;
+}
+.road{
+    position: absolute;
+    width: 1400px;
+    top: 240px;
+    z-index: 2;
+}
+.carrot1{
+    position: absolute;
+    width: 128px;
+    top: 654px;
+    left: 130px;
+    z-index: 3;
+}
+.carrot2{
+    position: absolute;
+    width: 128px;
+    top: 459px;
+    left: 130px;
+    z-index: 3;
+}
+.carrot3{
+    position: absolute;
+    width: 128px;
+    top: 340px;
+    left:262px;
+    z-index: 3;
+}
+.rabbit{
+    position: absolute;
+    width: 251px;
+    top: 425px;
+    left:368px;
+    z-index: 3;
+}
+.honey1{
+    position: absolute;
+    width: 138px;
+    top: 692px;
+    left: 422px;
+    z-index: 3;
+}
+.honey2{
+    position: absolute;
+    width: 137px;
+    top: 629px ;
+    left: 610px;
+    z-index: 3;
+}
+.honey3{
+    position: absolute;
+    width: 134px;
+    top: 496px;
+    left: 742px;
+    z-index: 3;
+} 
+.bear{
+    position: absolute;
+    width: 216px;
+    top:255px;
+    left:660px;
+    z-index: 3;
+}
+.fish1{
+    position: absolute;
+    width: 222px;
+    top:73px;
+    left:875px;
+    z-index: 3;
+}
+.fish2{
+    position: absolute;
+    width: 216px;
+    top:200px;
+    left:998px;
+    z-index: 3;
+}
+.fish3{
+    position: absolute;
+    width: 244px; 
+    top:480px;
+    left:933px;
+    z-index: 3;
+}
+.cat{
+    position: absolute;
+    width: 269px;
+    top:550px;
+    left:1080px;
+    z-index: 3;
+}
+.shovel{
+    position: absolute;
+    width: 198px;
+    top:275px;
+    left:15px;
+    z-index: 2;
+}
+.chair{
+    position: absolute;
+    width: 175px;
+    top:190px;
+    left:1200px;
+    z-index: 2;
+}
+.manyfish{
+    position: absolute;
+    width: 649px;
+    top:745px;
+    left:500px;
+    z-index: 2;
+}
+.honeycomb{
+    position: absolute;
+    width: 309px;
+    top:110px;
+    left:400px;
+    z-index: 2;
+}
+.setting{
+    position:absolute;
+    width: 112px;
+    top:18px;
+    left:1270px;
+    z-index: 1000;
+}
+.leave{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left:0px;
+    z-index:1000;
+}
+.bag{
+    position: absolute;
+    width:170px;
+    top: 875.5px;
+    left:1230px;
+    z-index: 1000;
+}
+.black{
+    position: absolute;
+    width: 1400px;height: 1050px;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+.store{
+    position: absolute;
+    width: 1273px;
+    top: 202px;
+    left: 59px;
+    z-index: 1000;
+}
+.stroke{
+    position: absolute;
+    width: 155px;
+    top: 122px;
+    left: 58px;
+    z-index: 1000;
+}

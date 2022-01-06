@@ -1,0 +1,377 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.bar{
+    position: absolute;
+    width: 1400px;
+    z-index: 2;
+}
+.test{
+    position: absolute;
+    width: 214px;
+    top: 30px;
+    left:85px;
+    z-index: 3;
+}
+.time{
+    position: absolute;
+    width: 431px;
+    top:30px;
+    left: 425.5px;
+    z-index: 3;
+}
+.score{
+    position: absolute;
+    width: 333px;
+    top: 30px;
+    left: 983px;
+    z-index: 3;
+}
+.home{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 0px;
+    z-index: 6;
+}
+.home:hover{
+    position: absolute;
+    width: 190px;
+    top: 855px;
+    left:0px;
+    z-index:1000;
+}
+.question{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 1230px;
+    z-index: 6;
+}
+.question:hover{
+    position: absolute;
+    width:190px;
+    top: 855px;
+    left:1210px;
+    z-index: 1000;
+}
+.rabbit{
+    position: absolute;
+    width: 310px;
+    top: 145px;
+    left: 140px;
+    z-index: 4;
+
+    animation-name:rabbit;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes rabbit{
+   from{top:145px;}
+   to{top:135px;}
+}
+.conversation{
+    position: absolute;
+    width: 492px;
+    top: 192px;
+    left: 485px;
+    z-index: 4;
+}
+.blue1{
+    position: absolute;
+    width: 80px;
+    top: 594px;
+    left: 75px;
+    z-index: 4;
+
+    animation-name:blue1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes blue1{
+   from{top:594px;}
+   to{top: 597px;}
+}
+
+.blue2{
+    position: absolute;
+    width: 80px;
+    top: 655px;
+    left: 896px;
+    z-index: 4;
+    animation-name:blue2;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes blue2{
+   from{top:655px;}
+   to{top: 652px;}
+}
+
+.blue3{
+    position: absolute;
+    width: 72px;
+    top: 867px;
+    left: 1047px;
+    z-index: 4;
+    animation-name:blue3;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes blue3{
+   from{top:867px;}
+   to{top: 864px;}
+}
+.yellow1{
+    position: absolute;
+    width:89px;
+    top: 851px;
+    left: 182px;
+    z-index: 4;
+    animation-name:yellow1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes yellow1{
+   from{top:851px;}
+   to{top: 845px;}
+}
+.yellow2{
+    position: absolute;
+    width:71px;
+    top: 667px;
+    left: 675px;
+    z-index: 4;
+    animation-name:yellow2;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes yellow2{
+   from{top:667px;}
+   to{top: 665px;}
+}
+.yellow3{
+    position: absolute;
+    width:84px;
+    top: 812px;
+    left: 797px;
+    z-index: 4;
+    animation-name:yellow3;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes yellow3{
+   from{top:812px;}
+   to{top: 808px;}
+}
+
+.yellow4{
+    position: absolute;
+    width:65px;
+    top: 624px;
+    left: 1091px;
+    z-index: 4; 
+    animation-name:yellow4;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes yellow4{
+   from{top:624px;}
+   to{top: 620px;}
+}
+.red1{
+    position: absolute;
+    width: 76px;
+    top: 688px;
+    left: 352px;
+    z-index: 4; 
+    animation-name:red1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes red1{
+   from{top:688px;}
+   to{top: 685px;}
+}
+.red2{
+    position: absolute;
+    width: 73px;
+    top: 482px;
+    left: 493px;
+    z-index: 4;
+    animation-name:red2;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes red2{
+   from{top:482px;}
+   to{top: 479px;}
+}
+.red3{
+    position: absolute;
+    width: 76px;
+    top: 787px;                       
+    left: 542px;
+    z-index: 4;
+    animation-name:red3;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes red3{
+   from{top:787px;}
+   to{top: 785px;}
+}
+.red4{
+    position: absolute;
+    width: 68px;
+    top: 532px;
+    left: 794px;
+    z-index: 4; 
+    animation-name:red4;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes red4{
+   from{top:532px;}
+   to{top: 529px;}
+}
+.red5{
+    position: absolute;
+    width: 68px;
+    top: 764px;
+    left: 1218px;
+    z-index: 4;
+    animation-name:red5;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes red5{
+   from{top:764px;}
+   to{top: 760px;}
+}
+.red6{
+    position: absolute;
+    width: 68px;
+    top: 552px;
+    left: 1275px;
+    z-index: 4; 
+    animation-name:red6;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; 
+}
+@keyframes red6{
+   from{top:552px;}
+   to{top: 550px;}
+}
+.dust1{
+    position: absolute;
+    width: 133px;
+    top: 700px;
+    left: 63px;
+    z-index: 5;
+}
+.dust2{
+    position: absolute;
+    width: 138px;
+    top: 948px;
+    left: 154px;
+    z-index: 5;
+}
+.dust3{
+    position: absolute;
+    width: 151px;
+    top: 793px;
+    left: 300px; 
+    z-index: 5;
+}
+.dust4{
+    position: absolute;
+    width: 130px;
+    top: 572px;
+    left: 475px;
+    z-index: 5;
+}
+.dust5{
+    position: absolute;
+    width: 165px;
+    top: 891px;
+    left: 523px; 
+    z-index: 5;
+}
+.dust6{
+    position: absolute;
+    width: 131px;
+    top: 740px;
+    left: 661px;
+    z-index: 5;
+}
+.dust7{
+    position: absolute;
+    width: 146px;
+    top: 900px;
+    left: 752px;
+    z-index: 5;
+}
+.dust8{
+    position: absolute;
+    width: 120px; 
+    top: 614px;
+    left: 763px;
+    z-index: 5;
+}
+.dust9{
+    position: absolute;
+    width: 164px;
+    top:760px;
+    left: 884px; 
+    z-index: 5;
+}
+.dust10{
+    position: absolute;
+    width: 102px;
+    top: 975px;
+    left: 1038px;
+    z-index: 5;
+}
+.dust11{
+    position: absolute;
+    width: 170px;
+    top: 704px;
+    left: 1078px;
+    z-index: 5;
+}
+.dust12{
+    position: absolute;
+    width: 104px;
+    top: 846px;
+    left: 1202px;
+    z-index: 5;
+}
+.dust13{
+    position: absolute;
+    width: 105px; 
+    top: 634px;
+    left: 1258px;
+    z-index: 5;
+}

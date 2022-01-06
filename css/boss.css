@@ -1,0 +1,250 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.sign{
+    position: absolute;
+    width: 569px;
+    top: 0px;
+    left: 424px;
+    z-index: 1000;
+}
+.time{
+    position: absolute;
+    width: 433px;
+    top:158px;
+    left: 25px;
+    z-index: 1000;
+}
+.score{
+    position: absolute;
+    width: 336px;
+    top: 158px;
+    left: 1047px;
+    z-index: 1000;
+}
+.home{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 0px;
+    z-index: 1000;
+}
+.home:hover{
+    position: absolute;
+    width: 190px;
+    top: 855px;
+    left:0px;
+    z-index:1000;
+}
+.question{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 1230px;
+    z-index: 1000;
+} 
+.question:hover{
+    position: absolute;
+    width:190px;
+    top: 855px;
+    left:1210px;
+    z-index: 1000;
+}
+.bear{
+    position: absolute;
+    width: 258px;
+    top:573px;
+    left: 162px;  
+    z-index: 4;
+    animation-name:bear;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes bear{
+   from{left: 162px;}
+   to{left: 900px;}
+}
+
+.conversation{
+    position: absolute;
+    width: 496px;
+    top: 558px;
+    left: 451px;
+    z-index: 3;
+}
+.c1{
+    position: absolute;
+    width: 75px;
+    top: 388px;
+    left: 38px;
+    z-index: 4;
+}
+.c2{
+    position: absolute;
+    width: 74px;
+    top: 284px;
+    left: 76px;
+    z-index: 4;
+}
+.c3{
+    position: absolute;
+    width: 98px;
+    top: 276px;
+    left: 198px;
+    z-index: 4;
+}
+.c4{
+    position: absolute;
+    width: 55px;
+    top: 410px;
+    left: 243px;
+    z-index: 4;
+}
+.c5{
+    position: absolute;
+    width: 44px;
+    top: 243px;
+    left: 329px;
+    z-index: 4;
+}
+.c5{
+    position: absolute;
+    width: 41px;
+    top: 243px;
+    left: 329px;
+    z-index: 4;
+}
+.c6{
+    position: absolute;
+    width: 97px;
+    top: 428px;
+    left: 335px;
+    z-index: 4;
+}
+.c7{
+    position: absolute;
+    width: 66px;
+    top: 303px;
+    left: 390px;
+    z-index: 4;
+}
+.c8{
+    position: absolute;
+    width: 79px;
+    top: 232px;
+    left: 449px;
+    z-index: 4;
+}
+.c9{
+    position: absolute;
+    width: 45px;
+    top: 446px;
+    left: 485px;
+    z-index: 4;
+}
+.c10{
+    position: absolute;
+    width: 40px;
+    top: 357px;
+    left: 547px;
+    z-index: 4;
+}
+.c11{
+    position: absolute;
+    width: 103px;
+    top: 230px;
+    left: 587px; 
+    z-index: 4;
+}
+.c12{
+    position: absolute;
+    width: 77px;
+    top: 418px;
+    left: 599px; 
+    z-index: 4;
+}
+.c13{
+    position: absolute;
+    width: 82px;
+    top: 279px;
+    left: 745px;
+    z-index: 4;
+}
+.c14{
+    position: absolute;
+    width: 95px;
+    top: 390px;
+    left: 771px;        
+    z-index: 4;
+}
+.c15{
+    position: absolute;
+    width: 75px;
+    top: 235px;
+    left: 867px;
+    z-index: 4;
+}
+.c16{
+    position: absolute;
+    width: 77px;
+    top: 358px;
+    left: 926px;
+    z-index: 4;
+}
+.c17{
+    position: absolute;
+    width: 99px;
+    top: 236px;
+    left: 1036px;
+    z-index: 4;
+}
+.c18{
+    position: absolute;
+    width: 81px;
+    top: 398px;
+    left: 1068px;
+    z-index: 4;
+}
+.c19{
+    position: absolute;
+    width: 52px;
+    top: 319px;
+    left: 1124px;
+    z-index: 4;
+}
+.c20{
+    position: absolute;
+    width: 59px;
+    top: 268px;
+    left: 1195px;
+    z-index: 4;
+}
+.c21{
+    position: absolute;
+    width: 102px;
+    top: 386px;
+    left: 1244px;
+    z-index: 4;
+}
+.c22{
+    position: absolute;
+    width: 74px;
+    top: 230px;
+    left: 1296px; 
+    z-index: 4;
+}
+.c23 {
+    position: absolute;
+    width: 35px;
+    top: 230px;
+    left: 33px;
+    z-index: 4;
+}

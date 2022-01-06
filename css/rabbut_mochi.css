@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.bar{
+    position: absolute;
+    width: 1400px;
+    z-index: 1000;
+}
+.test{
+    position: absolute;
+    width: 214px;
+    top: 30px;
+    left:85px;
+    z-index: 1000;
+}
+.time{
+    position: absolute;
+    width: 431px;
+    top:30px;
+    left: 425.5px;
+    z-index: 1000;
+}
+.score{
+    position: absolute;
+    width: 333px;
+    top: 30px;
+    left: 983px;
+    z-index: 1000;
+}
+.home{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 0px;
+    z-index: 1000;
+}
+.home:hover{
+    position: absolute;
+    width: 190px;
+    top: 855px;
+    left:0px;
+    z-index:1000;
+}
+.question{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 1230px;
+    z-index: 1000;
+}
+.question:hover{
+    position: absolute;
+    width:190px;
+    top: 855px;
+    left:1210px;
+    z-index: 1000;
+}
+.rabbit{
+    position: absolute;
+    width: 544px;
+    top: 81px;
+    left: 228px;
+    z-index: 2;
+}
+.hand{
+    position: absolute;
+    width: 327px;
+    top: 507px;
+    left: 311px;
+    z-index: 4;
+
+    animation-name:hand;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes hand{
+   from{top: 507px;}
+   to{top: 515px;}
+}
+.stick{
+    position: absolute;
+    width: 223px;
+    top: 398px;
+    left: 335px;
+    z-index: 3;
+    animation-name:stick;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes stick{
+   from{top: 398px;}
+   to{top: 401px;}
+}
+.wooden{
+    position: absolute;
+    width: 746px;
+    top: 614px;
+    left: 119px;
+    z-index: 2;
+}
+.conversation{
+    position: absolute;
+    width: 512px;
+    top:210px ;
+    left: 821px;
+    z-index: 2;
+}
+.square1{
+    position: absolute;
+    width: 201px;
+    top: 467px;
+    left: 904px;
+    z-index: 2;
+}
+.square2{
+    position: absolute;
+    width: 201px;
+    top: 467px;
+    left: 1093px;
+    z-index: 2;
+}
+.square3{
+    position: absolute;
+    width: 201px;
+    top: 656px;
+    left: 904px;
+    z-index: 2;
+}
+.square4{
+    position: absolute;
+    width: 201px;
+    top: 656px;
+    left: 1093px;
+    z-index: 2;
+}
+.red{
+    position: absolute;
+    width: 132px; 
+    top: 486px;
+    left: 933px;
+    z-index: 3; 
+}
+.red:hover{
+    position: absolute;
+    width: 140px; 
+    top: 480px;
+    left: 933px;
+    z-index: 3; 
+}
+.blue{
+    position: absolute;
+    width: 132px; 
+    top: 486px;
+    left: 1127px;
+    z-index: 3; 
+}
+.blue:hover{
+    position: absolute;
+    width: 140px; 
+    top: 480px;
+    left: 1127px;
+    z-index: 3; 
+}
+.yellow{
+    position: absolute;
+    width: 132px; 
+    top: 677px;
+    left: 933px;
+    z-index: 3; 
+}
+.yellow:hover{
+    position: absolute;
+    width: 140px; 
+    top: 670px;
+    left: 933px;
+    z-index: 3; 
+}
+.green {
+    position: absolute;
+    width: 132px; 
+    top: 677px;
+    left: 1127px;
+    z-index: 3; 
+}
+.green:hover {
+    position: absolute;
+    width: 140px; 
+    top: 670px;
+    left: 1127px;
+    z-index: 3; 
+}

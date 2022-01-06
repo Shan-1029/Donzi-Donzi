@@ -1,0 +1,415 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.bar{
+    position: absolute;
+    width: 1400px;
+    z-index: 1000;
+}
+.test{
+    position: absolute;
+    width: 214px;
+    top: 30px;
+    left:85px;
+    z-index: 1000;
+}
+.time{
+    position: absolute;
+    width: 431px;
+    top:30px;
+    left: 425.5px;
+    z-index: 1000;
+}
+.score{
+    position: absolute;
+    width: 333px;
+    top: 30px;
+    left: 983px;
+    z-index: 1000;
+}
+.home{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 0px;
+    z-index: 1000;
+}
+.home:hover{
+    position: absolute;
+    width: 190px;
+    top: 855px;
+    left:0px;
+    z-index:1000;
+}
+.question{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 1230px;
+    z-index: 1000;
+} 
+.question:hover{
+    position: absolute;
+    width:190px;
+    top: 855px;
+    left:1210px;
+    z-index: 1000;
+}
+.cat{
+    position: absolute;
+    width: 358px;
+    top: 529px;
+    left: 103px;
+    z-index: 4;
+    animation-name:cat;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes cat{
+   from{top: 529px;}
+   to{top: 535px;}
+}
+.conversation{
+    position: absolute;
+    width: 496px;
+    top: 344px;
+    left: 408px;
+    z-index: 3;
+}
+.box1{
+    position: absolute;
+    width: 202px;
+    top: 442px;
+    left: 905px;
+    z-index: 3;
+}
+.box2{
+    position: absolute;
+    width: 202px;
+    top: 442px;
+    left: 1095px;
+    z-index: 3;
+}
+.box3{
+    position: absolute;
+    width: 202px;
+    top: 632px;
+    left: 905px;
+    z-index: 3;
+}
+.box4{
+    position: absolute;
+    width: 202px;
+    top: 632px;
+    left: 1095px;
+    z-index: 3;
+}
+.red{
+    position: absolute;
+    width: 122px;
+    top: 463px;
+    left: 941px;
+    z-index: 3;
+}
+.red:hover{
+    position: absolute;
+    width: 125px;
+    top: 455px;
+    left: 941px;
+    z-index: 3;
+}
+.orange{
+    position: absolute;
+    width: 122px;
+    top: 463px;
+    left: 1134px;
+    z-index: 3;
+}
+.orange:hover{
+    position: absolute;
+    width: 125px;
+    top: 455px;
+    left: 1134px;
+    z-index: 3;
+}
+.green{
+    position: absolute;
+    width: 122px;
+    top: 650px;
+    left: 941px;
+    z-index: 3;
+}
+.green:hover{
+    position: absolute;
+    width: 125px;
+    top: 645px;
+    left: 941px;
+    z-index: 3;
+}
+.purple{
+    position: absolute;
+    width: 122px;
+    top: 650px;
+    left: 1134px;
+    z-index: 3;
+}
+.purple:hover{
+    position: absolute;
+    width: 125px;
+    top: 645px;
+    left: 1134px;
+    z-index: 3;
+}
+.b1-1{
+    position: absolute;
+    width: 120px;
+    top: 30px;
+    left: 34px;
+    z-index: 2;
+}
+.b1-2{
+    position: absolute;
+    width: 131px;
+    top: 188px;
+    left: 25px;
+    z-index: 2;
+}
+.b1-3{
+    position: absolute;
+    width: 120px;
+    top: 341px;
+    left: 34px;
+    z-index: 2;
+}
+.b1-4{
+    position: absolute;
+    width: 125px;
+    top: 500px;
+    left: 30px;
+    z-index: 2;
+}
+.b1-5{
+    position: absolute;
+    width: 120px;
+    top: 648px;
+    left: 34px;
+    z-index: 2;
+}
+.b2-1{
+    position: absolute;
+    width: 131px;
+    top: 30px;
+    left: 225px;
+    z-index: 2;
+}
+.b2-2{
+    position: absolute;
+    width: 120px;
+    top: 188px;
+    left: 234px;
+    z-index: 2;
+}
+.b2-3{
+    position: absolute;
+    width: 125px;
+    top: 341px;
+    left: 230px;
+    z-index: 2;
+}
+.b2-4{
+    position: absolute;
+    width: 120px;
+    top: 500px;
+    left: 230px;
+    z-index: 2;
+}
+.b2-5{
+    position: absolute;
+    width: 131px;
+    top: 648px;
+    left: 225px;
+    z-index: 2;
+}
+.b3-1{
+    position: absolute;
+    width: 120px;
+    top: 30px;
+    left: 434px;
+    z-index: 2;
+}
+.b3-2{
+    position: absolute;
+    width: 120px;
+    top: 188px;
+    left: 431px;
+    z-index: 2;
+}
+.b3-3{
+    position: absolute;
+    width: 120px;
+    top: 341px;
+    left: 434px;
+    z-index: 2;
+}
+.b3-4{
+    position: absolute;
+    width: 131px;
+    top: 500px;
+    left: 425px;
+    z-index: 2;
+}
+.b3-5{
+    position: absolute;
+    width: 120px;
+    top: 648px;
+    left: 434px;
+    z-index: 2;
+}
+.b4-1{
+    position: absolute;
+    width: 125px;
+    top: 30px;
+    left: 629px;
+    z-index: 2;
+}
+.b4-2{
+    position: absolute;
+    width: 120px;
+    top: 188px;
+    left: 633px;
+    z-index: 2;
+}
+.b4-3{
+    position: absolute;
+    width: 131px;
+    top: 341px;
+    left: 624px;
+    z-index: 2;
+}
+.b4-4{
+    position: absolute;
+    width: 120px;
+    top: 500px;
+    left: 633px;
+    z-index: 2;
+}
+.b4-5{
+    position: absolute;
+    width: 125px;
+    top: 648px;
+    left: 629px;
+    z-index: 2;
+}
+.b5-1{
+    position: absolute;
+    width: 120px;
+    top: 30px;
+    left: 833px;
+    z-index: 2;
+}
+.b5-2{
+    position: absolute;
+    width: 125px;
+    top: 188px;
+    left: 830px;
+    z-index: 2;
+}
+.b5-3{
+    position: absolute;
+    width: 120px;
+    top: 341px;
+    left: 833px;
+    z-index: 2;
+}
+.b5-4{
+    position: absolute;
+    width: 131px;
+    top: 500px;
+    left: 824px;
+    z-index: 2;
+}
+.b5-5{
+    position: absolute;
+    width: 125px;
+    top: 648px;
+    left: 833px;
+    z-index: 2;
+}
+.b6-1{
+    position: absolute;
+    width: 131px;
+    top: 30px;
+    left: 1023px;
+    z-index: 2;
+}
+.b6-2{
+    position: absolute;
+    width: 120px;
+    top: 188px;
+    left: 1032px;
+    z-index: 2;
+}
+.b6-3{
+    position: absolute;
+    width: 125px;
+    top: 341px;
+    left: 1028px;
+    z-index: 2;
+}
+.b6-4{
+    position: absolute;
+    width: 120px;
+    top: 500px;
+    left: 1033px;
+    z-index: 2;
+}
+.b6-5{
+    position: absolute;
+    width: 131px;
+    top: 648px;
+    left: 1023px;
+    z-index: 2;
+}
+.b7-1{
+    position: absolute;
+    width: 120px;
+    top: 30px;
+    left: 1234px;
+    z-index: 2;
+}
+.b7-2{
+    position: absolute;
+    width: 131px;
+    top: 188px;
+    left: 1225px;
+    z-index: 2;
+}
+.b7-3{
+    position: absolute;
+    width: 120px;
+    top: 341px;
+    left: 1234px;
+    z-index: 2;
+}
+.b7-4{
+    position: absolute;
+    width: 125px;
+    top: 500px;
+    left: 1230px;
+    z-index: 2;
+}
+.b7-5{
+    position: absolute;
+    width: 120px;
+    top: 648px;
+    left: 1234px;
+    z-index: 2;
+}

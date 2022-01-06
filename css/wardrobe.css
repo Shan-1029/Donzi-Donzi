@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.shun{
+    position: absolute;
+    width: 275px;
+    top: 223px;
+    left: 131px;
+    z-index: 3;
+}
+.sign{
+    position: absolute;
+    width: 450px;
+    top: 78px;
+    left: 40px;
+    z-index: 2;
+}
+.box{
+    position: absolute;
+    width: 843px;
+    top: 42px;
+    left: 519px;
+    z-index: 2;
+}
+.hair1{
+    position: absolute;
+    width: 148px;
+    top: 242px;
+    left: 643px;
+    z-index: 3;
+}
+.hair1:hover{
+    position: absolute;
+    width: 160px;
+    top: 239px;
+    left: 639px;
+    z-index: 3;
+}
+.hair2{
+    position: absolute;
+    width: 240px;
+    top: 200px;
+    left: 810px;
+    z-index: 3;
+}
+
+.hair3{
+    position: absolute;
+    width: 141px; 
+    top: 236px;
+    left: 1074px;
+    z-index: 3;
+}
+.hair3:hover{
+    position: absolute;
+    width: 153px; 
+    top: 233px;
+    left: 1070px;
+    z-index: 3;
+}
+.clothes1{
+    position: absolute;
+    width: 117px;
+    top: 456px;
+    left: 667px;
+    z-index: 3;
+}
+.clothes1:hover{
+    position: absolute;
+    width: 129px;
+    top: 453px;
+    left: 663px;
+    z-index: 3;
+}
+.clothes2{
+    position: absolute;
+    width: 153px;
+    top: 458px;
+    left: 861px;
+    z-index: 3;
+}
+.clothes2:hover{
+    position: absolute;
+    width: 165px;
+    top: 455px;
+    left: 857px;
+    z-index: 3;
+}
+.clothes3{
+    position: absolute;
+    width: 213px;
+    top: 400px;
+    left: 1035px;
+    z-index: 3;
+}
+.shoes1{
+    position: absolute;
+    width: 250px;
+    top: 706px;
+    left: 604px;
+    z-index: 3;
+}
+.shoes2{
+    position: absolute;
+    width: 162px;
+    top: 767px;
+    left: 864px;
+    z-index: 3;
+}
+.shoes2:hover{
+    position: absolute;
+    width: 174px;
+    top: 764px;
+    left: 860px;
+    z-index: 3;
+}
+.shoes3{
+    position: absolute;
+    width: 161px;
+    top: 768px;
+    left: 1067px;
+    z-index: 3;
+}
+.shoes3:hover{
+    position: absolute;
+    width: 173px;
+    top: 765px;
+    left: 1063px;
+    z-index: 3;
+}
+.button{
+    position: absolute;
+    width: 357px;
+    top: 874px;
+    left: 758px;
+    z-index: 3;
+}
+.button:hover{
+    position: absolute;
+    width: 380px;
+    top: 865px;
+    left: 750px;
+    z-index: 3;
+}
+.leave{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left:0px;
+    z-index:1000;
+}
+.leave:hover{
+    position: absolute;
+    width: 190px;
+    top: 855px;
+    left:0px;
+    z-index:1000;
+}

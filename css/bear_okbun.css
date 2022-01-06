@@ -1,0 +1,395 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.bar{
+    position: absolute;
+    width: 1400px;
+    z-index: 1000;
+}
+.test{
+    position: absolute;
+    width: 214px;
+    top: 30px;
+    left:85px;
+    z-index: 1000;
+}
+.time{
+    position: absolute;
+    width: 431px;
+    top:30px;
+    left: 425.5px;
+    z-index: 1000;
+}
+.score{
+    position: absolute;
+    width: 333px;
+    top: 30px;
+    left: 983px;
+    z-index: 1000;
+}
+.home{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 0px;
+    z-index: 1000;
+}
+.home:hover{
+    position: absolute;
+    width: 190px;
+    top: 855px;
+    left:0px;
+    z-index:1000;
+}
+.question{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 1230px;
+    z-index: 1000;
+}
+.question:hover{
+    position: absolute;
+    width:190px;
+    top: 855px;
+    left:1210px;
+    z-index: 1000;
+}
+.bear{
+    position: absolute;
+    width: 834px;
+    top: 121.9px;
+    left: 38px;
+    z-index: 3; 
+}
+.conversation{
+    position: absolute;
+    width: 537px;
+    top: 270px;
+    left: 838px;
+    z-index: 3;
+}
+.box1{
+    position: absolute;
+    width: 202px;
+    top: 535px;
+    left: 905px;
+    z-index: 3;
+}
+.box2{
+    position: absolute;
+    width: 202px;
+    top: 535px;
+    left: 1095px;
+    z-index: 3;
+}
+.box3{
+    position: absolute;
+    width: 202px;
+    top: 725px;
+    left: 905px;
+    z-index: 3;
+}
+.box4{
+    position: absolute;
+    width: 202px;
+    top: 725px;
+    left: 1095px;
+    z-index: 3;
+}
+.circle{
+    position: absolute;
+    width: 142px;
+    top: 566px;
+    left: 936px;
+    z-index: 5;
+}
+.circle:hover{
+    position: absolute;
+    width: 150px;
+    top: 565px;
+    left: 932px;
+    z-index: 5;
+}
+.square{
+    position: absolute;
+    width: 142px;
+    top: 566px;
+    left: 1125px;
+    z-index: 5;
+}
+.square:hover{
+    position: absolute;
+    width: 150px;
+    top: 563px;
+    left: 1120px;
+    z-index: 5;
+}
+.triangle{
+    position: absolute;
+    width: 148px;
+    top: 760px;
+    left:936px;
+    z-index: 5;
+}
+.triangle:hover{
+    position: absolute;
+    width: 155px;
+    top: 752px;
+    left:932px;
+    z-index: 5;
+}
+.hexagon{
+    position: absolute;
+    width: 145px;
+    top: 760px;
+    left: 1125px;
+    z-index: 5;
+}
+.hexagon:hover{
+    position: absolute;
+    width: 155px;
+    top: 758px;
+    left: 1120px;
+    z-index: 5;
+}
+.square1{
+    position: absolute;
+    width: 105px;
+    top: 315px;
+    left: 145px; 
+    z-index: 4;
+
+    animation-name: square1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes square1{
+    0%{
+        width: 105px;
+    }
+    25%{
+        width: 103px;
+    }
+    50%{
+        width: 105px;
+    }
+    75%{
+        width: 103px;
+    }
+    100%{
+        width: 105px;
+    }
+}
+
+.square2{
+    position: absolute;
+    width: 120px;
+    top: 893px;
+    left: 232px;
+    z-index: 4;
+
+    animation-name: square2;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes square2{
+    0%{
+        width: 120px;
+    }
+    25%{
+        width: 121px;
+    }
+    50%{
+        width: 120px;
+    }
+    75%{
+        width: 121px;
+    }
+    100%{
+        width: 120px;
+    }
+}
+.square3{
+    position: absolute;
+    width: 122px;
+    top: 755px;
+    left: 365px;
+    z-index: 4;
+
+    animation-name: square3;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes square3{
+    0%{
+        width: 122px;
+    }
+    25%{
+        width: 121px;
+    }
+    50%{
+        width: 122px;
+    }
+    75%{
+        width: 121px;
+    }
+    100%{
+        width: 122px;
+    }
+}
+.circle1{
+    position: absolute;
+    width: 111px;
+    top: 252px;
+    left: 609px;
+    z-index: 4;
+
+    animation-name: circle1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes circle1{
+    0%{
+        width: 111px;
+    }
+    25%{
+        width: 113px;
+    }
+    50%{
+        width: 111px;
+    }
+    75%{
+        width: 113px;
+    }
+    100%{
+        width: 111px;
+    }
+}
+.circle2{
+    position: absolute;
+    width: 94px;
+    top: 909px;
+    left: 473px;
+    z-index: 4;
+
+    animation-name: circle2;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes circle2{
+    0%{
+        width: 94px;
+    }
+    25%{
+        width: 93px;
+    }
+    50%{
+        width: 94px;
+    }
+    75%{
+        width: 93px;
+    }
+    100%{
+        width: 94px;
+    }
+}
+.circle3{
+    position: absolute;
+    width: 170px;
+    top: 676px;
+    left: 597px;
+    z-index: 4;
+
+    animation-name: circle3;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes circle3{
+    0%{
+        width: 170px;
+    }
+    25%{
+        width: 175px;
+    }
+    50%{
+        width: 170px;
+    }
+    75%{
+        width: 175px;
+    }
+    100%{
+        width: 170px;
+    }
+}
+.triangle1{
+    position: absolute;
+    width: 86px;
+    top: 787px;
+    left: 169px;
+    z-index: 4;
+
+    animation-name: triangle1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes triangle1{
+    0%{
+        width: 86px;
+    }
+    25%{
+        width: 83px;
+    }
+    50%{
+        width: 86px;
+    }
+    75%{
+        width: 83px;
+    }
+    100%{
+        width: 86px;
+    }
+}
+.triangle2{
+    position: absolute;
+    width: 101px;
+    top: 845px;
+    left: 684px;
+    z-index: 4;
+
+    animation-name: triangle2;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes triangle2{
+    0%{
+        width: 101px;
+    }
+    25%{
+        width: 103px;
+    }
+    50%{
+        width: 101px;
+    }
+    75%{
+        width: 103px;
+    }
+    100%{
+        width: 101px;
+    }
+}

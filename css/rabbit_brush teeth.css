@@ -1,0 +1,353 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.bar{
+    position: absolute;
+    width: 1400px;
+    z-index: 1000;
+}
+.test{
+    position: absolute;
+    width: 214px;
+    top: 30px;
+    left:85px;
+    z-index: 1000;
+}
+.time{
+    position: absolute;
+    width: 431px;
+    top:30px;
+    left: 425.5px;
+    z-index: 1000;
+}
+.score{
+    position: absolute;
+    width: 333px;
+    top: 30px;
+    left: 983px;
+    z-index: 1000;
+}
+.home{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 0px;
+    z-index: 1000;
+}
+.question{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 1230px;
+    z-index: 1000;
+}
+.home:hover{
+    position: absolute;
+    width: 190px;
+    top: 855px;
+    left:0px;
+    z-index:1000;
+}
+.question:hover{
+    position: absolute;
+    width:190px;
+    top: 855px;
+    left:1210px;
+    z-index: 1000;
+}
+
+.rabbit{
+    position: absolute;
+    width: 784px;
+    top: 85px;
+    left: 102px;
+    z-index: 2;
+}
+.conversation{
+    position: absolute;
+    width: 493px;
+    top: 211px;
+    left: 833px;
+    z-index: 3;
+}
+.square1{
+    position: absolute;
+    width: 201px;
+    top: 467px;
+    left: 900px;
+    z-index: 3;
+}
+.square2{
+    position: absolute;
+    width: 201px;
+    top: 467px;
+    left: 1089px;
+    z-index: 3;
+}
+.square3{
+    position: absolute;
+    width: 201px;
+    top: 656px;
+    left: 900px;
+    z-index: 3;
+}
+.square4{
+    position: absolute;
+    width: 201px;
+    top: 656px;
+    left: 1089px;
+    z-index: 3;
+}
+.brushred{
+    position: absolute;
+    width: 162px;
+    top: 490px;
+    left: 919px;
+    z-index: 4;
+}
+.brushred:hover{
+    position: absolute;
+    width: 175px;
+    top: 490px;
+    left: 910px;
+    z-index: 4;
+}
+.brushblue{
+    position: absolute;
+    width:162px;
+    top: 490px;
+    left: 1107px;
+    z-index: 4;
+}
+.brushblue:hover{
+    position: absolute;
+    width:175px;
+    top: 490px;
+    left: 1107px;
+    z-index: 4;
+}
+.brushyellow{
+    position: absolute;
+    width: 162px;
+    top: 676px;
+    left: 919px;
+    z-index: 4;
+}
+.brushyellow:hover{
+    position: absolute;
+    width: 175px;
+    top: 672px;
+    left: 910px;
+    z-index: 4;
+}
+.brushpurple{
+    position: absolute;
+    width: 162px;
+    top: 676px;
+    left: 1107px;
+    z-index: 4;
+}
+.brushpurple:hover{
+    position: absolute;
+    width: 175px;
+    top: 672px;
+    left: 1104px;
+    z-index: 4;
+}
+.red1{
+    position: absolute;
+    width: 78px;
+    top:808px;
+    left: 305px;
+    z-index: 3;
+
+    animation-name: red1;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes red1{
+   0%{transform: rotate(0deg);}
+   25%{transform: rotate(3deg);}
+   50%{transform: rotate(0deg);}
+   75%{transform: rotate(3deg);}
+   100%{transform: rotate(0deg);}
+}
+.red2{
+    position: absolute;
+    width: 51px;
+    top: 727px;
+    left: 433px;
+    z-index: 3;
+
+    animation-name: red2;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes red2{
+   0%{transform: rotate(0deg);}
+   25%{transform: rotate(3deg);}
+   50%{transform: rotate(0deg);}
+   75%{transform: rotate(3deg);}
+   100%{transform: rotate(0deg);}
+}
+.red3{
+    position: absolute;
+    width: 66px;
+    top: 781px;
+    left: 555px;
+    z-index: 3;
+
+    animation-name: red3;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes red3{
+   0%{transform: rotate(0deg);}
+   25%{transform: rotate(3deg);}
+   50%{transform: rotate(0deg);}
+   75%{transform: rotate(3deg);}
+   100%{transform: rotate(0deg);}
+}
+.yellow1{
+    position: absolute;
+    width: 68px; 
+    top: 749px;
+    left: 304px;
+    z-index: 3;
+
+    animation-name: yellow1;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes yellow1{
+   0%{transform: rotate(0deg);}
+   25%{transform: rotate(-2deg);}
+   50%{transform: rotate(0deg);}
+   75%{transform: rotate(-2deg);}
+   100%{transform: rotate(0deg);}
+}
+.yellow2{
+    position: absolute;
+    width: 85px;
+    top: 834px;
+    left: 380px;
+    z-index: 3;
+
+    animation-name: yellow2;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes yellow2{
+   0%{transform: rotate(0deg);}
+   25%{transform: rotate(-2deg);}
+   50%{transform: rotate(0deg);}
+   75%{transform: rotate(-2deg);}
+   100%{transform: rotate(0deg);}
+}
+.yellow3{
+    position: absolute;
+    width: 91px;
+    top: 823px;
+    left: 592px;
+    z-index: 3;
+
+    animation-name: yellow3;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes yellow3{
+   0%{transform: rotate(0deg);}
+   25%{transform: rotate(-2deg);}
+   50%{transform: rotate(0deg);}
+   75%{transform: rotate(-2deg);}
+   100%{transform: rotate(0deg);}
+}
+.yellow4{
+    position: absolute;
+    width: 47px;
+    top: 749px;
+    left: 636px;
+    z-index: 3;
+
+    animation-name: yellow4;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes yellow4{
+   0%{transform: rotate(0deg);}
+   25%{transform: rotate(-4deg);}
+   50%{transform: rotate(0deg);}
+   75%{transform: rotate(-4deg);}
+   100%{transform: rotate(0deg);}
+}
+.blue1{
+    position: absolute;
+    width: 42px;
+    top: 761px;
+    left: 387px;
+    z-index: 3;
+
+    animation-name: blue1;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes blue1{
+   0%{transform: rotate(0deg);}
+   25%{transform: rotate(-10deg);}
+   50%{transform: rotate(0deg);}
+   75%{transform: rotate(-10deg);}
+   100%{transform: rotate(0deg);}
+}
+.blue2{
+    position: absolute;
+    width: 83px;
+    top: 807px;
+    left: 478px;
+    z-index: 3;
+    animation-name: blue2;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes blue2{
+   0%{transform: rotate(0deg);}
+   25%{transform: rotate(7deg);}
+   50%{transform: rotate(0deg);}
+   75%{transform: rotate(7deg);}
+   100%{transform: rotate(0deg);}
+}
+.blue3{
+    position: absolute;
+    width: 73px;
+    top: 725px;
+    left: 504px;
+    z-index: 3;
+
+    animation-name: blue3;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes blue3{
+   0%{transform: rotate(0deg);}
+   25%{transform: rotate(11deg);}
+   50%{transform: rotate(0deg);}
+   75%{transform: rotate(12deg);}
+   100%{transform: rotate(0deg);}
+}

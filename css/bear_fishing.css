@@ -1,0 +1,391 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.background{
+    position: absolute;
+    width: 1400px;
+    height: 1050px;
+    z-index: 1;
+}
+.bar{
+    position: absolute;
+    width: 1400px;
+    z-index: 1000;
+}
+.test{
+    position: absolute;
+    width: 214px;
+    top: 30px;
+    left:85px;
+    z-index: 1000;
+}
+.time{
+    position: absolute;
+    width: 431px;
+    top:30px;
+    left: 425.5px;
+    z-index: 1000;
+}
+.score{
+    position: absolute;
+    width: 333px;
+    top: 30px;
+    left: 983px;
+    z-index: 1000;
+}
+.home{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 0px;
+    z-index: 1000;
+}
+.home:hover{
+    position: absolute;
+    width: 190px;
+    top: 855px;
+    left:0px;
+    z-index:1000;
+}
+.question{
+    position: absolute;
+    width: 170px;
+    top: 875.5px;
+    left: 1230px;
+    z-index: 1000;
+}
+.question:hover{
+    position: absolute;
+    width:190px;
+    top: 855px;
+    left:1210px;
+    z-index: 1000;
+}
+.bear{
+    position: absolute;
+    width: 521px;
+    top: 116px;
+    left: 10px;
+    z-index: 5;
+}
+.conversation{
+    position: absolute;
+    width: 537px;
+    top: 166px;
+    left: 419px;
+    z-index: 3;
+}
+.triangle{
+    position: absolute;
+    width: 179px;
+    top: 388px;
+    left: 848px;
+    z-index: 4; 
+}
+.triangle:hover{
+    position: absolute;
+    width: 185px;
+    top: 375px;
+    left: 845px;
+    z-index: 4;
+}
+.circle{
+    position: absolute;
+    width: 179px;
+    top: 287px;
+    left: 960px;
+    z-index: 3;
+}
+.circle:hover{
+    position: absolute;
+    width: 185px;
+    top: 280px;
+    left: 958px;
+    z-index: 3;
+}
+.square{
+    position: absolute;
+    width: 179px;
+    top: 385px;
+    left: 1071px;
+    z-index: 4;
+}
+.square:hover{
+    position: absolute;
+    width: 185px;
+    top: 380px;
+    left: 1068px;
+    z-index: 4;
+}
+.hexagon{
+    position: absolute;
+    width: 179px;
+    top: 329px;
+    left: 1210px;
+    z-index: 3;
+}
+.hexagon:hover{
+    position: absolute;
+    width: 185px;
+    top: 325px;
+    left: 1208px;
+    z-index: 3;
+}
+.turtle1{
+    position: absolute;
+    width: 139px;
+    top: 572px;
+    left: 584px;
+    z-index: 2;
+
+    animation-name: turtle1;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes turtle1{
+   from{left: 504px;}
+   to{left: 400px;}
+}
+.turtle2{
+    position: absolute;
+    width: 144px;
+    top: 555px;
+    left: 1087px;
+    z-index: 2;
+
+    animation-name: turtle2;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes turtle2{
+   from{left: 1087px;}
+   to{left: 900px;}
+}
+.turtle3{
+    position: absolute;
+    width: 122px;
+    top: 797px;
+    left: 272px;
+    z-index: 2;
+
+    animation-name: turtle3;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes turtle3{
+   from{left: 272px;}
+   to{left: 400px;}
+}
+.square1{
+    position: absolute; 
+    width: 114px;
+    top: 692px;
+    left: 44px;
+    z-index: 2;
+
+    animation-name: square1;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes square1{
+   from{left:200px;}
+   to{left: 20px;}
+}
+.square2{
+    position: absolute;
+    width: 139px;
+    top: 855px;
+    left: 395px;
+    z-index: 2;
+
+    animation-name: square2;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes square2{
+   from{left: 395px;}
+   to{left: 900px;}
+}
+
+.square3{
+    position: absolute;
+    width: 79px;
+    top: 540px;
+    left: 428px; 
+    z-index: 2;
+
+    animation-name: square3;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes square3{
+   from{top: 540px;}
+   to{top: 490px;}
+}
+.square4{
+    position: absolute;
+    width: 113px;
+    top: 722px;
+    left: 917px;
+    z-index: 2;
+
+    animation-name: square4;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes square4{
+   from{left: 917px;}
+   to{left: 600px;}
+}
+.hexagon1{
+    position: absolute;
+    width: 138px;
+    top: 603px;
+    left: 200px;
+    z-index: 2;
+
+    animation-name: hexagon1;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes hexagon1{
+   from{left: 800px;}
+   to{left: 200px;}
+}
+.hexagon2{
+    position: absolute;
+    width: 103px;
+    top: 861px;
+    left: 808px;
+    z-index: 2;
+
+    animation-name: hexagon2;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes hexagon2{
+   from{left: 808px;}
+   to{left: 200px;}
+}
+.hexagon3{
+    position: absolute;
+    width: 103px;
+    top: 656px;
+    left: 1178px;
+    z-index: 2;
+
+    animation-name: hexagon3;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes hexagon3{
+   from{left: 800px;}
+   to{left: 1200px;}
+}
+.triangle1{
+    position: absolute;
+    width: 70px;
+    top: 713px;
+    left: 350px;
+    z-index: 2;
+
+    animation-name: triangle1;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes triangle1{
+   from{left: 450px;}
+   to{left: 200px;}
+}
+.triangle2{
+    position: absolute;
+    width: 113px;
+    top: 584px;
+    left: 755px;
+    z-index: 2;
+
+    animation-name: triangle2;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes triangle2{
+   from{left: 755px;}
+   to{left: 900px;}
+}
+.triangle3{
+    position: absolute;
+    width: 99px;
+    top: 612px;
+    left: 968px; 
+    z-index: 2;
+
+    animation-name: triangle3;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes triangle3{
+   from{left: 1168px;}
+   to{left: 700px;}
+}
+.circle1{
+    position: absolute;
+    width: 103px;
+    top: 665px;
+    left: 494px;
+    z-index: 2;
+
+    animation-name:circle1;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes circle1{
+   from{left: 494px;}
+   to{left: 1000px;}
+}
+.circle2{
+    position: absolute;
+    width: 127px;
+    top: 724px;
+    left: 633px;
+    z-index: 2;
+
+     animation-name:circle2;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes circle2{
+   from{left: 633px;}
+   to{left: 400px;}
+}
+.circle3 {
+    position: absolute;
+    width: 116px;
+    top: 725px;
+    left: 1264px;
+    z-index: 2;
+
+    animation-name:circle3;
+    animation-duration: 30s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes circle3{
+   from{left: 500px;}
+   to{left: 800px;}
+}
